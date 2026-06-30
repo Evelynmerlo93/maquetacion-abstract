@@ -10,8 +10,8 @@ header{
 
 .navbar{
     padding:1rem;
-    display:flex; /* Porque queremos una linea horizontal*/
-    justify-content: space-between; /*Porque queremos separacion izquierda/derecha */
+    display:flex; 
+    justify-content: space-between; 
     align-items: center;
 }
 
@@ -29,7 +29,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4rem 1rem; /*Separa hero de contenedores de arriba y abajo*/
+    padding: 4rem 1rem;
 }
 
 .hero h1{
@@ -49,16 +49,16 @@ body{
 }
 
 .card{
-    padding: 1.5rem; /*espacio interior en las cards*/
-    border-radius: 0.5rem; /*redondea esquinas*/
+    padding: 1.5rem; 
+    border-radius: 0.5rem; 
     border: 1px solid #ddd;
 }
 
-@media (min-width: 768px){ /*media nos indica que cuando se cumpla la condicion de que la pantalla tenga igual o mas de 768 debe cumplirse esta regla.*/
+@media (min-width: 768px){ 
 
     .cards{
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /*2 columnas cada una ocupa el mismo espacio*/
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .card p{
@@ -69,11 +69,11 @@ body{
 
 
 .footer{
-    display: grid; /*por defecto una sola columna*/
+    display: grid; 
     grid-template-columns: 1fr;
 }
 
-@media (min-width:768px){ /*cuando la pantalla sea mas grande,se cumple. */ 
+@media (min-width:768px){ 
 
     .footer{
         grid-template-columns:repeat(4,1fr);
